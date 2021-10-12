@@ -10,7 +10,7 @@
 
 resource "azurerm_resource_group" "example" {
    name     = "datarg"
-   location = "West Europe"
+   location = "east us"
  }
 
 # resource "azurerm_public_ip" "example" {
