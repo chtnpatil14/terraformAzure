@@ -8,10 +8,10 @@
 #   resource_name = "chetan"
 # }
 
-# resource "azurerm_resource_group" "example" {
-#   name     = "${local.resource_name}-rg"
-#   location = "West Europe"
-# }
+resource "azurerm_resource_group" "example" {
+   name     = "datarg"
+   location = "West Europe"
+ }
 
 # resource "azurerm_public_ip" "example" {
 #   name                = "${local.resource_name}-pip"
